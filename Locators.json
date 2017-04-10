@@ -1,0 +1,31 @@
+{
+ "Login" : [
+   {
+     "loginButtonPath": "//a[contains(text(),'Login')]",
+     "emailFieldPath": "//input[@name='email']",
+     "nextButtonPath ": "//button[@type='submit']",
+     "passwordFieldPath": "//input[@type='password']"
+   }
+ ],
+
+  "Groups" : [
+    {
+      "groupsTextPath" : "//h4[contains(text(),'Groups')]",
+      "recommendedGroupButtonPath" : "//button[contains(@title,'Recommend group(s)')]",
+      "createNewButtonPath" : "//button[contains(@title,'Create new group')]",
+      "groupsIModerateTabPath" : "//label[contains(@title,'Groups I Admin')]",
+      "exploreTabPath" : "//label[contains(@title,'Groups you may like to')]",
+      "recommendedTabPath" : "//label[contains(@title,'See groups recommended to you')]",
+      "searchFieldPath" : "input[ng-model*='searchText']",
+      "createGroupModalPopUpPath" : "//div[@class='modal-content']",
+      "groupNamePath":"input[ng-model*='group.name']",
+      "groupEmailIdPath":"//input[@name='Email']",
+      "descriptionPath": "textarea[ng-model*='group.description']",
+      "closedRadioButtonPath" : "//input[@value='2']",
+      "privateRadioButtonPath": "//input[@value='0']",
+      "doneButtonPath": "//div[@class='modal-footer']/button[text()='Done']"
+    }
+  ],
+
+
+}

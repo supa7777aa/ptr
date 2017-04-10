@@ -1,0 +1,4 @@
+{
+  "selectQuery":"select email,password from hallwaze",
+  "selectQueryOnId": "select email, password from hallwaze where id = 1"
+}
